@@ -1,6 +1,6 @@
 body {
     background-color: #505050;
-    margin: 18px 0 0 8px;
+    margin: 50px 50px 50px 50px;
 }
 header {
     height: 137px;
@@ -66,5 +66,83 @@ div.menu_right {
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
     background-color: #909090;
-    left: 1175px;
+    left: 1215px;
+}
+img.advance, img.take, img.look, img.use, img.speak {
+    position: absolute;
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    right: 65px;
+}
+img.take {
+    top: 80px;
+}
+img.look {
+    top: 160px;
+}
+img.use {
+    top: 240px;
+}
+img.speak {
+    top: 320px;
+}
+img.panic, img.towel, img.brick {
+    position: absolute;
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+    right: 65px;
+}
+img.towel {
+    top: 80px;
+}
+img.brick {
+    top: 160px;
+}
+div.form {
+    background-color: #88ff89;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    bottom: -30px;
+    font-family: arial;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+div.text {
+    margin-top: 20px;
+    margin-left: 7px;
+}
+.form span.big {
+    font-family: Times;
+    font-size: 31px;
+}
+.form span.shadow {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+.form span.italic {
+    font-style: italic;
+}
+.form form {
+    height: 22px;
+}
+.form form input[type="text"] {
+    margin-left: 2px;
+    width: 376px;
+    border: 2px solid #9d969d;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    height: 15px;
+}
+.form form input[type="submit"] {
+    margin-left: 4px;
+    border-radius: 1px;
+    background-color: #f4eff3;
+    height: 22px;
+    font-size:12px;
+    letter-spacing: 1px;
 }
